@@ -4,6 +4,9 @@
     font-size: 16px;
     color: rgba(13, 19, 33, 0.788);
   }
+  .pera-pri{
+    line-height: 25pt;
+}
   *{
     margin: 0;
     padding: 0;
@@ -58,4 +61,114 @@ nav{
     font-family: "Azeret Mono", monospace;
     font-weight: 700;
     border-radius: 8px;
+}
+
+.head-sec{
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+    font-weight: 800;
+}
+
+.sec-wwd{
+    padding: 75px 0;
+}
+.div-wwd{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60%;
+    max-width: 1920;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #FAFAFB;
+    padding: 95px 80px;
+    text-align: center;
+}
+.card-wwd{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 0, 0, 0) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.card-wwd-2{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 0, 0, 0) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    padding: 20px;
+    gap: 25px;
+}
+.img-div{
+    width: 35%;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.btn-3{
+    padding: 8px 20px;
+    border: solid 2px #0d1321c4;
+    background-color: white;
+    color: #0d1321c4;
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+}
+
+.ytvideo{
+    border-radius: 16px;
+}
+.yt-bdr{
+    padding: 32px;
+    border-radius: 16px;
+    border: #0d13212d solid 1px;
+}
+.div-mi{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+/* my current target style start */
+.card-mct{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card-html{
+    width: 30%;
+    background-color: #ff4b1e0a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    margin-right: 10px
+}
+.card-css{
+    width: 30%;
+    background-color: #004CE80a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    margin-right: 10px
+}
+.card-js{
+    width: 30%;
+    background-color: #f58f0a0a;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: left;
+    margin-right: 10px
+}
+a{
+    color: #0d1321da;
 }
